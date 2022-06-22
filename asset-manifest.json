@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/PDF-Reader/static/css/main.b3bacfa5.chunk.css",
+    "main.js": "/PDF-Reader/static/js/main.37c3b16b.chunk.js",
+    "main.js.map": "/PDF-Reader/static/js/main.37c3b16b.chunk.js.map",
+    "runtime-main.js": "/PDF-Reader/static/js/runtime-main.e923d6ff.js",
+    "runtime-main.js.map": "/PDF-Reader/static/js/runtime-main.e923d6ff.js.map",
+    "static/css/2.43b2b750.chunk.css": "/PDF-Reader/static/css/2.43b2b750.chunk.css",
+    "static/js/2.184c3499.chunk.js": "/PDF-Reader/static/js/2.184c3499.chunk.js",
+    "static/js/2.184c3499.chunk.js.map": "/PDF-Reader/static/js/2.184c3499.chunk.js.map",
+    "index.html": "/PDF-Reader/index.html",
+    "static/css/2.43b2b750.chunk.css.map": "/PDF-Reader/static/css/2.43b2b750.chunk.css.map",
+    "static/css/main.b3bacfa5.chunk.css.map": "/PDF-Reader/static/css/main.b3bacfa5.chunk.css.map",
+    "static/js/2.184c3499.chunk.js.LICENSE.txt": "/PDF-Reader/static/js/2.184c3499.chunk.js.LICENSE.txt",
+    "static/media/5.2c1a674f.gif": "/PDF-Reader/static/media/5.2c1a674f.gif",
+    "static/media/redindies.654a431a.pdf": "/PDF-Reader/static/media/redindies.654a431a.pdf",
+    "static/media/thrivenow.aaa09823.pdf": "/PDF-Reader/static/media/thrivenow.aaa09823.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e923d6ff.js",
+    "static/css/2.43b2b750.chunk.css",
+    "static/js/2.184c3499.chunk.js",
+    "static/css/main.b3bacfa5.chunk.css",
+    "static/js/main.37c3b16b.chunk.js"
+  ]
+}

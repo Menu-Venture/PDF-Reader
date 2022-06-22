@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PDF-Reader/static/css/main.b3bacfa5.chunk.css",
-    "main.js": "/PDF-Reader/static/js/main.37c3b16b.chunk.js",
-    "main.js.map": "/PDF-Reader/static/js/main.37c3b16b.chunk.js.map",
+    "main.js": "/PDF-Reader/static/js/main.92711e7a.chunk.js",
+    "main.js.map": "/PDF-Reader/static/js/main.92711e7a.chunk.js.map",
     "runtime-main.js": "/PDF-Reader/static/js/runtime-main.e923d6ff.js",
     "runtime-main.js.map": "/PDF-Reader/static/js/runtime-main.e923d6ff.js.map",
     "static/css/2.43b2b750.chunk.css": "/PDF-Reader/static/css/2.43b2b750.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.43b2b750.chunk.css",
     "static/js/2.184c3499.chunk.js",
     "static/css/main.b3bacfa5.chunk.css",
-    "static/js/main.37c3b16b.chunk.js"
+    "static/js/main.92711e7a.chunk.js"
   ]
 }

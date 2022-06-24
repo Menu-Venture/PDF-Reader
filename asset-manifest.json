@@ -1,26 +1,30 @@
 {
   "files": {
     "main.css": "/PDF-Reader/static/css/main.b3bacfa5.chunk.css",
-    "main.js": "/PDF-Reader/static/js/main.92711e7a.chunk.js",
-    "main.js.map": "/PDF-Reader/static/js/main.92711e7a.chunk.js.map",
+    "main.js": "/PDF-Reader/static/js/main.82ded150.chunk.js",
+    "main.js.map": "/PDF-Reader/static/js/main.82ded150.chunk.js.map",
     "runtime-main.js": "/PDF-Reader/static/js/runtime-main.e923d6ff.js",
     "runtime-main.js.map": "/PDF-Reader/static/js/runtime-main.e923d6ff.js.map",
     "static/css/2.43b2b750.chunk.css": "/PDF-Reader/static/css/2.43b2b750.chunk.css",
-    "static/js/2.184c3499.chunk.js": "/PDF-Reader/static/js/2.184c3499.chunk.js",
-    "static/js/2.184c3499.chunk.js.map": "/PDF-Reader/static/js/2.184c3499.chunk.js.map",
+    "static/js/2.b843786c.chunk.js": "/PDF-Reader/static/js/2.b843786c.chunk.js",
+    "static/js/2.b843786c.chunk.js.map": "/PDF-Reader/static/js/2.b843786c.chunk.js.map",
     "index.html": "/PDF-Reader/index.html",
     "static/css/2.43b2b750.chunk.css.map": "/PDF-Reader/static/css/2.43b2b750.chunk.css.map",
     "static/css/main.b3bacfa5.chunk.css.map": "/PDF-Reader/static/css/main.b3bacfa5.chunk.css.map",
-    "static/js/2.184c3499.chunk.js.LICENSE.txt": "/PDF-Reader/static/js/2.184c3499.chunk.js.LICENSE.txt",
+    "static/js/2.b843786c.chunk.js.LICENSE.txt": "/PDF-Reader/static/js/2.b843786c.chunk.js.LICENSE.txt",
     "static/media/5.2c1a674f.gif": "/PDF-Reader/static/media/5.2c1a674f.gif",
+    "static/media/LuckyResto.40c39d83.pdf": "/PDF-Reader/static/media/LuckyResto.40c39d83.pdf",
+    "static/media/Pourpure.aea528c3.pdf": "/PDF-Reader/static/media/Pourpure.aea528c3.pdf",
+    "static/media/SaharaBeveges.8965e13f.pdf": "/PDF-Reader/static/media/SaharaBeveges.8965e13f.pdf",
+    "static/media/dwarka.aaa09823.pdf": "/PDF-Reader/static/media/dwarka.aaa09823.pdf",
     "static/media/redindies.654a431a.pdf": "/PDF-Reader/static/media/redindies.654a431a.pdf",
-    "static/media/thrivenow.aaa09823.pdf": "/PDF-Reader/static/media/thrivenow.aaa09823.pdf"
+    "static/media/swaad.7964e7c0.pdf": "/PDF-Reader/static/media/swaad.7964e7c0.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.e923d6ff.js",
     "static/css/2.43b2b750.chunk.css",
-    "static/js/2.184c3499.chunk.js",
+    "static/js/2.b843786c.chunk.js",
     "static/css/main.b3bacfa5.chunk.css",
-    "static/js/main.92711e7a.chunk.js"
+    "static/js/main.82ded150.chunk.js"
   ]
 }

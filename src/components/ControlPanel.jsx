@@ -33,19 +33,19 @@ const ControlPanel = (props) => {
   return (
     <div className="control-panel m-3 p-3 d-flex align-items-baseline justify-content-between">
       <div className="d-flex justify-content-between align-items-baseline">
-        <button className="button" onClick={showForm}>
+        {/* <button className="button" onClick={showForm}>
           {toggle ? "Dark Theme" : "Light Theme"}
-        </button>
-        <label>Language: </label>
+        </button> */}
+        {/* <label>Language: </label>
         <select value={lang} style={{ width: "40%" }} onChange={handleSelect}>
           <option value="English">English</option>
           <option value="Hindi">Hindi</option>
           <option value="Marathi">Marathi</option>
           <option value="Gujrati">Gujrati</option>
           <option value="Telugu">Telugu</option>
-        </select>
+        </select> */}
       </div>
-      <div className="d-flex justify-content-between align-items-baseline">
+      {/* <div className="d-flex justify-content-between align-items-baseline">
         <i
           className={`fas fa-search-minus mx-3 ${zoomOutClass}`}
           onClick={zoomOut}
@@ -55,7 +55,7 @@ const ControlPanel = (props) => {
           className={`fas fa-search-plus mx-3 ${zoomInClass}`}
           onClick={zoomIn}
         />
-      </div>
+      </div> */}
       <div className="mx-3">
         <a
           href="https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf"

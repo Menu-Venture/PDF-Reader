@@ -3,7 +3,11 @@ import Loader from "./Loader";
 import { Document, Page, pdfjs } from "react-pdf";
 import ControlPanel from "./ControlPanel";
 import redindiespdf from "../pdf/redindies.pdf";
-import thrivenowpdf from "../pdf/thrivenow.pdf";
+import dwarkapdf from '../pdf/dwarka.pdf'
+import luckyrestopdf from '../pdf/LuckyResto.pdf'
+import pourpurepdf from '../pdf/Pourpure.pdf'
+import saharabpdf from '../pdf/SaharaBeveges.pdf'
+import swaadpdf from '../pdf/swaad.pdf'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const PDFReader = (props) => {
@@ -39,15 +43,15 @@ const PDFReader = (props) => {
           id="pdf-section"
           className="d-flex flex-column align-items-center w-100"
         >
-          <ControlPanel
+          {/* <ControlPanel
             scale={scale}
             setScale={setScale}
             themeHandler={toggleHandler}
             langHandler={langHandler}
-          />
+          /> */}
 
-          {toggle && props.url === "/thrivenow" &&(
-            <Document file={thrivenowpdf} onLoadSuccess={onDocumentLoadSuccess}>
+          {toggle && props.url === "/002209DNSP" &&(
+            <Document file={dwarkapdf} onLoadSuccess={onDocumentLoadSuccess}>
               {[1].map((page) => (
                 <Page pageNumber={page} scale={scale} />
               ))}
@@ -55,8 +59,44 @@ const PDFReader = (props) => {
             </Document>
           )}
 
-          {toggle && props.url === "/redindies" &&(
+          {toggle && props.url === "/001067RIKN" &&(
             <Document file={redindiespdf} onLoadSuccess={onDocumentLoadSuccess}>
+              {[1].map((page) => (
+                <Page pageNumber={page} scale={scale} />
+              ))}
+              {/* <Page scale={scale} /> */}
+            </Document>
+          )}
+
+          {toggle && props.url === "/003067PPKN" &&(
+            <Document file={pourpurepdf} onLoadSuccess={onDocumentLoadSuccess}>
+              {[1].map((page) => (
+                <Page pageNumber={page} scale={scale} />
+              ))}
+              {/* <Page scale={scale} /> */}
+            </Document>
+          )}
+
+          {toggle && props.url === "/004014LRD" &&(
+            <Document file={luckyrestopdf} onLoadSuccess={onDocumentLoadSuccess}>
+              {[1].map((page) => (
+                <Page pageNumber={page} scale={scale} />
+              ))}
+              {/* <Page scale={scale} /> */}
+            </Document>
+          )}
+
+          {toggle && props.url === "/005209SBNSP" &&(
+            <Document file={saharabpdf} onLoadSuccess={onDocumentLoadSuccess}>
+              {[1].map((page) => (
+                <Page pageNumber={page} scale={scale} />
+              ))}
+              {/* <Page scale={scale} /> */}
+            </Document>
+          )}
+
+          {toggle && props.url === "/006014SD" &&(
+            <Document file={swaadpdf} onLoadSuccess={onDocumentLoadSuccess}>
               {[1].map((page) => (
                 <Page pageNumber={page} scale={scale} />
               ))}

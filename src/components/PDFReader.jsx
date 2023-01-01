@@ -49,7 +49,8 @@ const PDFReader = (props) => {
             themeHandler={toggleHandler}
             langHandler={langHandler}
           /> */}
-
+{/* 5.72 */}
+{/* 3.82 */}
           {toggle && props.url === "/002209DNSP" &&(
             <Document file={dwarkapdf} onLoadSuccess={onDocumentLoadSuccess}>
               {[1].map((page) => (
@@ -58,7 +59,8 @@ const PDFReader = (props) => {
               {/* <Page scale={scale} /> */}
             </Document>
           )}
-
+{/* 9.51
+6.36 */}
           {toggle && props.url === "/001067RIKN" &&(
             <Document file={redindiespdf} onLoadSuccess={onDocumentLoadSuccess}>
               {[1].map((page) => (
@@ -67,7 +69,8 @@ const PDFReader = (props) => {
               {/* <Page scale={scale} /> */}
             </Document>
           )}
-
+{/* 8.07
+4.80 */}
           {toggle && props.url === "/003067PPKN" &&(
             <Document file={pourpurepdf} onLoadSuccess={onDocumentLoadSuccess}>
               {[1].map((page) => (
@@ -76,7 +79,8 @@ const PDFReader = (props) => {
               {/* <Page scale={scale} /> */}
             </Document>
           )}
-
+{/* 12.18
+5.94 */}
           {toggle && props.url === "/004014LRD" &&(
             <Document file={luckyrestopdf} onLoadSuccess={onDocumentLoadSuccess}>
               {[1].map((page) => (
@@ -85,7 +89,8 @@ const PDFReader = (props) => {
               {/* <Page scale={scale} /> */}
             </Document>
           )}
-
+{/* 3.90
+2.80 */}
           {toggle && props.url === "/005209SBNSP" &&(
             <Document file={saharabpdf} onLoadSuccess={onDocumentLoadSuccess}>
               {[1].map((page) => (
@@ -94,7 +99,8 @@ const PDFReader = (props) => {
               {/* <Page scale={scale} /> */}
             </Document>
           )}
-
+{/* 8.61
+4.90 */}
           {toggle && props.url === "/006014SD" &&(
             <Document file={swaadpdf} onLoadSuccess={onDocumentLoadSuccess}>
               {[1].map((page) => (
